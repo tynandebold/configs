@@ -1,0 +1,38 @@
+{
+  "editor.formatOnPaste": true,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.quickSuggestions": false,
+  "editor.snippetSuggestions": "top",
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "emmet.triggerExpansionOnTab": true,
+  "explorer.openEditors.visible": 0,
+  "workbench.activityBar.visible": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.statusBar.visible": true,
+  "atomKeymap.promptV3Features": true,
+  "workbench.editor.closeEmptyGroups": false,
+  "window.zoomLevel": 0,
+  "breadcrumbs.enabled": true,
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.activeBackground": "#999",
+    "editorIndentGuide.background": "#ddd",
+    // "editorIndentGuide.background": "#666", // dark
+    "editor.selectionHighlightBorder": "#dd77ddd0",
+    "editor.selectionHighlightBackground": "#fafafa",
+    // "editor.selectionHighlightBackground": "#fafafa00" // dark
+  },
+  "workbench.editor.showTabs": true,
+  "workbench.iconTheme": "vs-minimal",
+  "workbench.editor.highlightModifiedTabs": true,
+  "files.associations": {
+    "*.html": "html"
+  },
+  "editor.fontFamily": "'DejaVu Sans Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 12,
+  // "workbench.colorTheme": "Atom One Dark", // dark
+  "workbench.colorTheme": "Atom One Light",
+  // "javascript.updateImportsOnFileMove.enabled": "always" // dark
+}
