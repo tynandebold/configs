@@ -42,3 +42,38 @@ export HISTFILESIZE=
 
 # Homebrew
 export PATH=/usr/local/bin:$PATH
+
+# Functions for increased efficiency
+EDITOR=code
+NOTES_DIR=~/Documents/journal
+journal() {
+  cd $NOTES_DIR
+  git stash
+  git pull
+  git stash pop
+  mkdir -p $NOTES_DIR/`date +%Y`
+  $EDITOR $NOTES_DIR/`date +%Y`/`date +%Y-%m-%d`.md
+}
+alias j=journal
+
+journalPush() {
+  date=$(date)
+  cd $NOTES_DIR
+  if [[ $(git status -s) ]]; then
+    git add .
+    git commit -m "Journal updated: $date"
+    git push
+  fi
+}
+alias jp=journalPush
+
+TODO_DIR=~/Documents/todo
+todoPush() {
+  date=$(date)
+  cd $TODO_DIR
+  if [[ $(git status -s) ]]; then
+    git commit -am "Updated todos: $date"
+    git push
+  fi
+}
+alias tdp=todoPush
