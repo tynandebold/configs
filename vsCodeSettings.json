@@ -32,7 +32,16 @@
   },
   "editor.fontFamily": "'DejaVu Sans Mono', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 12,
+  "editor.fontWeight": "500",
   // "workbench.colorTheme": "Atom One Dark", // dark
   "workbench.colorTheme": "Atom One Light",
-  // "javascript.updateImportsOnFileMove.enabled": "always" // dark
+  // "javascript.updateImportsOnFileMove.enabled": "always" // dark,
+  // "flow.useNPMPackagedFlow": true
+  "flow.pathToFlow": "${workspaceFolder}/node_modules/.bin/flow",
+  // Set the default
+  "editor.formatOnSave": false,
+  // Enable per-language
+  "[javascript]": {
+    "editor.formatOnSave": true
+  }
 }

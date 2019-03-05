@@ -5,6 +5,8 @@ EXTENSIONS=(
   "akamud.vscode-theme-onelight"
   "axlan.multiline-find-and-replace"
   "ecmel.vscode-html-css"
+  "esbenp.prettier-vscode"
+  "flowtype.flow-for-vscode"
   "mrmlnc.vscode-duplicate"
   "ms-vscode.atom-keybindings"
   "ronnidc.nunjucks"
