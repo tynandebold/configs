@@ -7,6 +7,7 @@ EXTENSIONS=(
   "ecmel.vscode-html-css"
   "esbenp.prettier-vscode"
   "flowtype.flow-for-vscode"
+  "Fr43nk.seito-openfile"
   "mrmlnc.vscode-duplicate"
   "ms-vscode.atom-keybindings"
   "ronnidc.nunjucks"
