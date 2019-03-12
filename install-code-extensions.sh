@@ -13,9 +13,11 @@ EXTENSIONS=(
   "ronnidc.nunjucks"
   "ryu1kn.partial-diff"
   "sibiraj-s.vscode-scss-formatter"
+  "streetsidesoftware.code-spell-checker"
   "taniarascia.new-moon-vscode"
   "Tyriar.sort-lines"
   "zhuangtongfa.Material-theme"
+  "ziyasal.vscode-open-in-github"
 )
 
 for EXTENSION in ${EXTENSIONS[@]}; do

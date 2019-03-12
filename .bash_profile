@@ -43,6 +43,9 @@ export HISTFILESIZE=
 # Homebrew
 export PATH=/usr/local/bin:$PATH
 
+# Show PWD in terminal windows
+export PROMPT_COMMAND='echo -ne "\033]0;$PWD\007"'
+
 # Functions for increased efficiency
 EDITOR=code
 NOTES_DIR=~/Documents/journal
