@@ -9,11 +9,22 @@ export GIT_PS1_SHOWUNTRACKEDFILES=true
 export GIT_PS1_SHOWCOLORHINTS=true
 
 # Propmt colors, formatting, spacing
-export PS1='\n\[\033[36m\]\u:\[\033[33;1m\]\w\[\033[m\]\[\033[0;37m\]$(__git_ps1 " (%s)")\[\e[0m\]$ '
+export PS1='\n\[\033[36m\]tynan:\[\033[33;1m\]\w\[\033[m\]\[\033[0;37m\]$(__git_ps1 " (%s)")\[\e[0m\]$ '
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 
 # Aliases
+# Git
+alias ga='git add .'
+alias gc='git commit'
+alias gcam='git commit -am'
+alias gl='git log'
+alias gld='git log --pretty=format:"%h %ad %s" --date=short --all'
+alias glg='git log --graph --oneline --decorate --all'
+alias gp='git pull'
+alias gs='git status'
+alias gsync='git pull --rebase && git push'
+
 # Ls
 alias ls='ls -GFh'
 alias lsa='ls -la'
@@ -61,7 +72,7 @@ alias j=journal
 
 push() {
   date=$(date)
-  if [ "$1" = "todo" ]; then
+  if [[ "$1" = "todo" ]]; then
     cd ~/Documents/todo
     if [[ $(git status -s) ]]; then
       git commit -am "Updated todos: $date"
