@@ -7,8 +7,10 @@
   "editor.tabCompletion": "on",
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
+  "editor.rulers": [80],
   "emmet.triggerExpansionOnTab": true,
   "explorer.openEditors.visible": 0,
+  "explorer.autoReveal": false,
   "workbench.activityBar.visible": true,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.statusBar.visible": true,
@@ -17,11 +19,11 @@
   "window.zoomLevel": 0,
   "breadcrumbs.enabled": true,
   "workbench.colorCustomizations": {
-    "editorIndentGuide.activeBackground": "#999",
+    "editorIndentGuide.activeBackground": "#aaa",
     "editorIndentGuide.background": "#ddd",
     // "editorIndentGuide.background": "#666", // dark
     "editor.selectionHighlightBorder": "#dd77ddd0",
-    "editor.selectionHighlightBackground": "#fafafa",
+    "editor.selectionHighlightBackground": "#fafafa"
     // "editor.selectionHighlightBackground": "#fafafa00" // dark
   },
   "workbench.editor.showTabs": true,
@@ -35,13 +37,21 @@
   "editor.fontWeight": "500",
   // "workbench.colorTheme": "Atom One Dark", // dark
   "workbench.colorTheme": "Atom One Light",
-  // "javascript.updateImportsOnFileMove.enabled": "always" // dark,
+  "javascript.updateImportsOnFileMove.enabled": "always",
   // "flow.useNPMPackagedFlow": true
   "flow.pathToFlow": "${workspaceFolder}/node_modules/.bin/flow",
   // Set the default
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   // Enable per-language
   "[javascript]": {
-    "editor.formatOnSave": true
-  }
+    "editor.formatOnSave": false
+  },
+  "[scss]": {
+    "editor.formatOnSave": false
+  },
+  "[html]": {
+    "editor.formatOnSave": false
+  },
+  "prettier.singleQuote": true,
+  "workbench.list.keyboardNavigation": "simple"
 }
