@@ -13,6 +13,9 @@ export PS1='\n\[\033[36m\]tynan:\[\033[33;1m\]\w\[\033[m\]\[\033[0;37m\]$(__git_
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 
+# So I can always run `code` from the command line
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
 # Aliases
 # Git
 alias ga='git add .'
