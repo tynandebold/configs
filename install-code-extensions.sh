@@ -10,6 +10,7 @@ EXTENSIONS=(
   "esbenp.prettier-vscode"
   "flowtype.flow-for-vscode"
   "Fr43nk.seito-openfile"
+  "jpoissonnier.vscode-styled-components"
   "mikestead.dotenv"
   "mrmlnc.vscode-duplicate"
   "ms-vscode.atom-keybindings"
