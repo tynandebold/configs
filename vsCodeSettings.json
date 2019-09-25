@@ -1,57 +1,70 @@
 {
-  "editor.formatOnPaste": true,
-  "editor.minimap.enabled": false,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.quickSuggestions": false,
-  "editor.snippetSuggestions": "top",
-  "editor.tabCompletion": "on",
-  "editor.tabSize": 2,
-  "editor.wordWrap": "on",
-  "editor.rulers": [80],
-  "emmet.triggerExpansionOnTab": true,
-  "explorer.openEditors.visible": 0,
-  "explorer.autoReveal": false,
-  "workbench.activityBar.visible": true,
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.visible": true,
   "atomKeymap.promptV3Features": true,
-  "workbench.editor.closeEmptyGroups": false,
-  "window.zoomLevel": 0,
   "breadcrumbs.enabled": true,
-  "workbench.colorCustomizations": {
-    "editorIndentGuide.activeBackground": "#aaa",
-    "editorIndentGuide.background": "#ddd",
-    // "editorIndentGuide.background": "#666", // dark
-    "editor.selectionHighlightBorder": "#dd77ddd0",
-    "editor.selectionHighlightBackground": "#fafafa"
-    // "editor.selectionHighlightBackground": "#fafafa00" // dark
-  },
-  "workbench.editor.showTabs": true,
-  "workbench.iconTheme": "vs-minimal",
-  "workbench.editor.highlightModifiedTabs": true,
-  "files.associations": {
-    "*.html": "html"
-  },
+  "editor.detectIndentation": false,
   "editor.fontFamily": "'DejaVu Sans Mono', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 12,
   "editor.fontWeight": "500",
-  // "workbench.colorTheme": "Atom One Dark", // dark
-  "workbench.colorTheme": "Atom One Light",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  // "flow.useNPMPackagedFlow": true
-  "flow.pathToFlow": "${workspaceFolder}/node_modules/.bin/flow",
+  "editor.formatOnPaste": true,
   // Set the default
   "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.quickSuggestions": false,
+  "editor.rulers": [80],
+  "editor.snippetSuggestions": "top",
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "[Atom One Dark]": {
+      "comments": "#8a8c8dbe"
+    }
+  },
+  "editor.wordWrap": "on",
+  "emmet.triggerExpansionOnTab": true,
+  "explorer.autoReveal": true,
+  "explorer.openEditors.visible": 0,
+  "files.associations": {
+    "*.html": "html"
+  },
+  "flow.pathToFlow": "${workspaceFolder}/node_modules/.bin/flow",
+  // "flow.useNPMPackagedFlow": true,
+  "prettier.singleQuote": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": true,
+  "workbench.editor.closeEmptyGroups": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.statusBar.visible": true,
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.activeBackground": "#aaa",
+    // "editorIndentGuide.background": "#ddd",
+    "editorIndentGuide.background": "#666", // dark
+    "editor.selectionHighlightBorder": "#dd77ddd0",
+    // "editor.selectionHighlightBackground": "#fafafa"
+    "editor.selectionHighlightBackground": "#fafafa00" // dark
+  },
+  "workbench.editor.showTabs": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.colorTheme": "Atom One Dark",
+  // "workbench.colorTheme": "Atom One Light",
+  "workbench.list.keyboardNavigation": "simple",
+  "workbench.iconTheme": "seti",
   // Enable per-language
   "[javascript]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": true
   },
   "[scss]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": true
+  },
+  "[css]": {
+    "editor.formatOnSave": true
   },
   "[html]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "prettier.singleQuote": true,
-  "workbench.list.keyboardNavigation": "simple"
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
