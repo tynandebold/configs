@@ -29,5 +29,6 @@ prefs for how i like stuff
     - [master password](https://masterpassword.app/)
     - [spectacle](https://www.spectacleapp.com/)
     - [better touch tool](https://folivora.ai/downloads)
+    - [express vpn](https://www.expressvpn.com/vpn-software/vpn-mac)
     - [spotify](https://www.spotify.com/us/download/other/)
     - [zeplin](https://zeplin.io/)
