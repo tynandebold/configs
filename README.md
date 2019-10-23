@@ -29,6 +29,7 @@ prefs for how i like stuff
     - [master password](https://masterpassword.app/)
     - [spectacle](https://www.spectacleapp.com/)
     - [better touch tool](https://folivora.ai/downloads)
+      - [json helper](https://apps.apple.com/us/app/json-helper-for-applescript/id453114608?mt=12) and [locateme](https://brewinstall.org/Install-locateme-on-Mac-with-Brew/)
     - [express vpn](https://www.expressvpn.com/vpn-software/vpn-mac)
     - [spotify](https://www.spotify.com/us/download/other/)
     - [zeplin](https://zeplin.io/)
