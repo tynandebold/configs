@@ -16,6 +16,9 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 # So I can always run `code` from the command line
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
+# Increase the memory usage of Node globally to 4gb
+export NODE_OPTIONS=--max_old_space_size=4096
+
 # Aliases
 # Git
 alias ga='git add .'
