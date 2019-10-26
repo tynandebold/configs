@@ -31,4 +31,4 @@ for EXTENSION in ${EXTENSIONS[@]}; do
   code --install-extension $EXTENSION
 done
 
-echo "\nvs code extensions installed"
+printf "\ndone installing vs code extensions"
