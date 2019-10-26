@@ -13,7 +13,7 @@ prefs for how i like stuff
 - location of iTerm profiles file:
 
   ```sh
-  /Users/tynandebold/Library/Application Support/iTerm2/DynamicProfiles/
+  ~/Library/ApplicationSupport/iTerm2/DynamicProfiles
   ```
 
 - install links
