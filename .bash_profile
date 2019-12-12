@@ -21,6 +21,7 @@ export NODE_OPTIONS=--max_old_space_size=4096
 
 # Aliases
 # Git
+alias g.='git checkout .'
 alias ga='git add .'
 alias gc='git commit'
 alias gcam='git commit -am'
