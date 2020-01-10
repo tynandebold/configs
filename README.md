@@ -25,6 +25,7 @@ prefs for how i like stuff
     - [vscode](https://code.visualstudio.com/download)
     - [postman](https://www.getpostman.com/downloads/)
     - [gitup](https://gitup.co/)
+    - [postico](https://eggerapps.at/postico/)
   - **other**
     - [master password](https://masterpassword.app/)
     - [spectacle](https://www.spectacleapp.com/)
