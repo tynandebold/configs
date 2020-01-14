@@ -17,7 +17,7 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Increase the memory usage of Node globally to 4gb
-export NODE_OPTIONS=--max_old_space_size=4096
+export NODE_OPTIONS=--max_old_space_size=2048
 
 # Aliases
 # Git
@@ -31,6 +31,8 @@ alias glg='git log --graph --oneline --decorate --all'
 alias gp='git pull'
 alias gs='git status'
 alias gsync='git pull --rebase && git push'
+alias stash='git stash'
+alias pop='git stash pop'
 
 # Ls
 alias ls='ls -GFh'
@@ -61,6 +63,9 @@ export HISTFILESIZE=
 
 # Homebrew
 export PATH=/usr/local/bin:$PATH
+
+# Python
+export PATH=$PATH:~/Library/Python/2.7/bin
 
 # Show PWD in terminal windows
 export PROMPT_COMMAND='echo -ne "\033]0;$PWD\007"'
