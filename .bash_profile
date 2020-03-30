@@ -33,6 +33,7 @@ alias gs='git status'
 alias gsync='git pull --rebase && git push'
 alias stash='git stash'
 alias pop='git stash pop'
+alias uncommit='git reset --soft HEAD^'
 
 # Ls
 alias ls='ls -GFh'
