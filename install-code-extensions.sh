@@ -8,6 +8,7 @@ EXTENSIONS=(
   "ecmel.vscode-html-css"
   "esbenp.prettier-vscode"
   "flowtype.flow-for-vscode"
+  "foxundermoon.shell-format"
   "Fr43nk.seito-openfile"
   "joaomoreno.github-sharp-theme"
   "jpoissonnier.vscode-styled-components"
