@@ -34,3 +34,4 @@ prefs for how i like stuff
     - [express vpn](https://www.expressvpn.com/vpn-software/vpn-mac)
     - [spotify](https://www.spotify.com/us/download/other/)
     - [zeplin](https://zeplin.io/)
+    - [ukelele](https://software.sil.org/ukelele/)
