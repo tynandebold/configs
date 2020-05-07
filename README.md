@@ -32,6 +32,8 @@ prefs for how i like stuff
     - [better touch tool](https://folivora.ai/downloads)
       - [json helper](https://apps.apple.com/us/app/json-helper-for-applescript/id453114608?mt=12) and [locateme](https://brewinstall.org/Install-locateme-on-Mac-with-Brew/)
     - [express vpn](https://www.expressvpn.com/vpn-software/vpn-mac)
+    - [image optim](https://imageoptim.com/mac)
+    - [mail mate](https://freron.com/)
     - [spotify](https://www.spotify.com/us/download/other/)
     - [zeplin](https://zeplin.io/)
     - [ukelele](https://software.sil.org/ukelele/)
