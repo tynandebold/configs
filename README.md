@@ -37,3 +37,5 @@ prefs for how i like stuff
     - [spotify](https://www.spotify.com/us/download/other/)
     - [zeplin](https://zeplin.io/)
     - [ukelele](https://software.sil.org/ukelele/)
+    - [net news wire](https://ranchero.com/netnewswire/)
+      - alternatively [reeder](https://reederapp.com/)
