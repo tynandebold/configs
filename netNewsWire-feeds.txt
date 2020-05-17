@@ -1,0 +1,8 @@
+http://hnrss.org/whoishiring/jobs/?q=React
+https://hacks.mozilla.org/feed/
+https://javascriptweekly.com/rss
+https://inessential.com/feed.json
+http://feeds.kottke.org/json
+https://xkcd.com/rss.xml
+https://daringfireball.net/feeds/json
+https://jvns.ca/atom.xml
