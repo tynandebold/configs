@@ -39,3 +39,5 @@ prefs for how i like stuff
     - [ukelele](https://software.sil.org/ukelele/)
     - [net news wire](https://ranchero.com/netnewswire/)
       - alternatively [reeder](https://reederapp.com/)
+    - [karabiner elements](https://karabiner-elements.pqrs.org/)
+      - map caps lock to escape || if using a non-us keyboard layout
