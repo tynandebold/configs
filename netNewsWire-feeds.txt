@@ -6,7 +6,6 @@ http://feeds.reuters.com/reuters/topNews
 https://www.espn.com/espn/rss/soccer/news
 https://feeds.a.dj.com/rss/RSSMarketsMain.xml
 https://feeds.a.dj.com/rss/RSSWorldNews.xml
-https://www.foreignaffairs.com/google-news-rss.xml
 https://www.economist.com/graphic-detail/rss.xml
 https://samharris.org/subscriber-rss/?uid=4583
 https://feeds.megaphone.fm/yang-speaks
@@ -21,3 +20,6 @@ https://notes.baldurbjarnason.com/feed.xml
 https://javascriptweekly.com/rss
 https://jvns.ca/atom.xml
 https://hnrss.org/whoishiring/jobs?q=React+OR+Javascript
+https://nplusonemag.com/feed/
+https://www.newyorker.com/feed/magazine/rss
+https://www.foreignaffairs.com/google-news-rss.xml
