@@ -1,4 +1,4 @@
-do shell script "echo > ~/sites/configs/netNewsWire-feeds.txt"
+do shell script "> ~/sites/configs/netNewsWire-feeds.txt"
 
 tell application "NetNewsWire"
 	set allAccounts to every account
