@@ -5,47 +5,49 @@
 		<title>nnw-subscriptions.opml</title>
 	</head>
 <body>
+	<outline text="NetNewsWire" title="NetNewsWire" description="" type="rss" version="RSS" htmlUrl="https://nnw.ranchero.com/" xmlUrl="https://nnw.ranchero.com/feed.json"/>
+	<outline text="xkcd.com" title="xkcd.com" description="" type="rss" version="RSS" htmlUrl="https://xkcd.com/" xmlUrl="https://xkcd.com/rss.xml"/>
 	<outline text="NASA Image of the Day" title="NASA Image of the Day" description="" type="rss" version="RSS" htmlUrl="http://www.nasa.gov/" xmlUrl="https://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss"/>
 	<outline text="zen habits" title="zen habits" description="" type="rss" version="RSS" htmlUrl="https://zenhabits.net/" xmlUrl="https://feeds.feedburner.com/zenhabits"/>
-	<outline text="NetNewsWire" title="NetNewsWire" description="" type="rss" version="RSS" htmlUrl="https://nnw.ranchero.com/" xmlUrl="https://nnw.ranchero.com/feed.json"/>
-	<outline text="Wikipedia picture of the day feed" title="Wikipedia picture of the day feed" description="" type="rss" version="RSS" htmlUrl="https://en.wikipedia.org/wiki/Main_Page" xmlUrl="https://en.wikipedia.org/w/api.php?action=featuredfeed&amp;feed=potd"/>
-	<outline text="xkcd.com" title="xkcd.com" description="" type="rss" version="RSS" htmlUrl="https://xkcd.com/" xmlUrl="https://xkcd.com/rss.xml"/>
-	<outline text="Mags" title="Mags">
-		<outline text="n+1 » Articles" title="n+1 » Articles" description="" type="rss" version="RSS" htmlUrl="https://nplusonemag.com/" xmlUrl="https://nplusonemag.com/feed/"/>
-		<outline text="The New Yorker June 8 &amp; 15, 2020" title="The New Yorker June 8 &amp; 15, 2020" description="" type="rss" version="RSS" htmlUrl="https://www.newyorker.com/magazine" xmlUrl="https://www.newyorker.com/feed/magazine/rss"/>
-		<outline text="Foreign Affairs Magazine" title="Foreign Affairs Magazine" description="" type="rss" version="RSS" htmlUrl="https://www.foreignaffairs.com/google-news-rss.xml" xmlUrl="https://www.foreignaffairs.com/google-news-rss.xml"/>
+	<outline text="Wikipedia picture of the day" title="Wikipedia picture of the day" description="" type="rss" version="RSS" htmlUrl="https://en.wikipedia.org/wiki/Main_Page" xmlUrl="https://en.wikipedia.org/w/api.php?action=featuredfeed&amp;feed=potd"/>
+	<outline text="News" title="News">
+		<outline text="Wikipedia: Current events" title="Wikipedia: Current events" description="" type="rss" version="RSS" htmlUrl="https://en.wikipedia.org/wiki/Portal:Current_events" xmlUrl="https://www.to-rss.xyz/wikipedia/current_events/"/>
+		<outline text="NPR News" title="NPR News" description="" type="rss" version="RSS" htmlUrl="https://www.npr.org/templates/story/story.php?storyId=1001" xmlUrl="https://feeds.npr.org/1001/rss.xml"/>
+		<outline text="WSJ.com: Markets" title="WSJ.com: Markets" description="" type="rss" version="RSS" htmlUrl="http://online.wsj.com/" xmlUrl="https://feeds.a.dj.com/rss/RSSMarketsMain.xml"/>
+		<outline text="WSJ.com: World News" title="WSJ.com: World News" description="" type="rss" version="RSS" htmlUrl="http://online.wsj.com/page/2_0006.html" xmlUrl="https://feeds.a.dj.com/rss/RSSWorldNews.xml"/>
+		<outline text="Graphic detail" title="Graphic detail" description="" type="rss" version="RSS" htmlUrl="https://www.economist.com/graphic-detail/" xmlUrl="https://www.economist.com/graphic-detail/rss.xml"/>
+		<outline text="www.espn.com - SOCCER" title="www.espn.com - SOCCER" description="" type="rss" version="RSS" htmlUrl="https://www.espn.com/" xmlUrl="https://www.espn.com/espn/rss/soccer/news"/>
 	</outline>
 	<outline text="Podcasts" title="Podcasts">
-		<outline text="Making Sense with Sam Harris - Subscriber Content" title="Making Sense with Sam Harris - Subscriber Content" description="" type="rss" version="RSS" htmlUrl="http://www.samharris.org/" xmlUrl="https://samharris.org/subscriber-rss/?uid=4583"/>
 		<outline text="Yang Speaks" title="Yang Speaks" description="" type="rss" version="RSS" htmlUrl="https://yangspeaks.com/" xmlUrl="https://feeds.megaphone.fm/yang-speaks"/>
-	</outline>
-	<outline text="News" title="News">
-		<outline text="Graphic detail" title="Graphic detail" description="" type="rss" version="RSS" htmlUrl="https://www.economist.com/graphic-detail/" xmlUrl="https://www.economist.com/graphic-detail/rss.xml"/>
-		<outline text="News : NPR" title="News : NPR" description="" type="rss" version="RSS" htmlUrl="https://www.npr.org/templates/story/story.php?storyId=1001" xmlUrl="https://feeds.npr.org/1001/rss.xml"/>
-		<outline text="WSJ.com: Markets" title="WSJ.com: Markets" description="" type="rss" version="RSS" htmlUrl="http://online.wsj.com/" xmlUrl="https://feeds.a.dj.com/rss/RSSMarketsMain.xml"/>
-		<outline text="www.espn.com - SOCCER" title="www.espn.com - SOCCER" description="" type="rss" version="RSS" htmlUrl="https://www.espn.com/" xmlUrl="https://www.espn.com/espn/rss/soccer/news"/>
-		<outline text="WSJ.com: World News" title="WSJ.com: World News" description="" type="rss" version="RSS" htmlUrl="http://online.wsj.com/page/2_0006.html" xmlUrl="https://feeds.a.dj.com/rss/RSSWorldNews.xml"/>
-		<outline text="Wikipedia: Portal: Current events" title="Wikipedia: Portal: Current events" description="" type="rss" version="RSS" htmlUrl="https://en.wikipedia.org/wiki/Portal:Current_events" xmlUrl="https://www.to-rss.xyz/wikipedia/current_events/"/>
-	</outline>
-	<outline text="Programming" title="Programming">
-		<outline text="Ask HN: Who is hiring? (June 2020)" title="Ask HN: Who is hiring? (June 2020)" description="" type="rss" version="RSS" htmlUrl="https://news.ycombinator.com/item?id=23379196" xmlUrl="https://hnrss.org/whoishiring/jobs?q=React+OR+Javascript"/>
-		<outline text="Baldur's Notes" title="Baldur's Notes" description="" type="rss" version="RSS" htmlUrl="https://notes.baldurbjarnason.com/" xmlUrl="https://notes.baldurbjarnason.com/feed.xml"/>
-		<outline text="Julia Evans" title="Julia Evans" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://jvns.ca/atom.xml"/>
-		<outline text="Ask HN: Who is hiring? (June 2020)" title="Ask HN: Who is hiring? (June 2020)" description="" type="rss" version="RSS" htmlUrl="https://news.ycombinator.com/item?id=23379196" xmlUrl="https://hnrss.org/whoishiring/jobs?q=design+OR+visa"/>
-		<outline text="Frontend Focus" title="Frontend Focus" description="" type="rss" version="RSS" htmlUrl="https://frontendfoc.us/" xmlUrl="https://frontendfoc.us/rss/"/>
-		<outline text="JavaScript Weekly" title="JavaScript Weekly" description="" type="rss" version="RSS" htmlUrl="https://javascriptweekly.com/" xmlUrl="https://javascriptweekly.com/rss"/>
+		<outline text="Making Sense with Sam Harris" title="Making Sense with Sam Harris" description="" type="rss" version="RSS" htmlUrl="http://www.samharris.org/" xmlUrl="https://samharris.org/subscriber-rss/?uid=4583"/>
 	</outline>
 	<outline text="Blogs" title="Blogs">
-		<outline text="ongoing by Tim Bray" title="ongoing by Tim Bray" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://www.tbray.org/ongoing/ongoing.atom"/>
-		<outline text="The Shape of Everything" title="The Shape of Everything" description="" type="rss" version="RSS" htmlUrl="https://shapeof.com/" xmlUrl="https://shapeof.com/feed.json"/>
-		<outline text="Daring Fireball" title="Daring Fireball" description="" type="rss" version="RSS" htmlUrl="https://daringfireball.net/" xmlUrl="https://daringfireball.net/feeds/json"/>
-		<outline text="Serious Eats" title="Serious Eats" description="" type="rss" version="RSS" htmlUrl="https://www.seriouseats.com/" xmlUrl="http://feeds.feedburner.com/seriouseatsfeaturesvideos"/>
-		<outline text="Stratechery by Ben Thompson" title="Stratechery by Ben Thompson" description="" type="rss" version="RSS" htmlUrl="https://stratechery.com/" xmlUrl="https://stratechery.com/feed/"/>
 		<outline text="Accidentally in Code" title="Accidentally in Code" description="" type="rss" version="RSS" htmlUrl="https://cate.blog/" xmlUrl="https://cate.blog/feed/"/>
 		<outline text="One Foot Tsunami" title="One Foot Tsunami" description="" type="rss" version="RSS" htmlUrl="https://onefoottsunami.com/" xmlUrl="https://onefoottsunami.com/feed/json/"/>
 		<outline text="Derek Sivers" title="Derek Sivers" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://sivers.org/en.atom"/>
 		<outline text="kottke.org" title="kottke.org" description="" type="rss" version="RSS" htmlUrl="http://kottke.org/" xmlUrl="http://feeds.kottke.org/json"/>
+		<outline text="ongoing by Tim Bray" title="ongoing by Tim Bray" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://www.tbray.org/ongoing/ongoing.atom"/>
+		<outline text="Stratechery by Ben Thompson" title="Stratechery by Ben Thompson" description="" type="rss" version="RSS" htmlUrl="https://stratechery.com/" xmlUrl="https://stratechery.com/feed/"/>
+		<outline text="The Shape of Everything" title="The Shape of Everything" description="" type="rss" version="RSS" htmlUrl="https://shapeof.com/" xmlUrl="https://shapeof.com/feed.json"/>
+		<outline text="Serious Eats" title="Serious Eats" description="" type="rss" version="RSS" htmlUrl="https://www.seriouseats.com/" xmlUrl="http://feeds.feedburner.com/seriouseatsfeaturesvideos"/>
+		<outline text="Daring Fireball" title="Daring Fireball" description="" type="rss" version="RSS" htmlUrl="https://daringfireball.net/" xmlUrl="https://daringfireball.net/feeds/json"/>
 		<outline text="inessential" title="inessential" description="" type="rss" version="RSS" htmlUrl="https://inessential.com/" xmlUrl="https://inessential.com/feed.json"/>
+		<outline text="Ian Welsh" title="Ian Welsh" description="" type="rss" version="RSS" htmlUrl="https://www.ianwelsh.net/" xmlUrl="http://feeds.feedburner.com/IanWelsh"/>
+	</outline>
+	<outline text="Programming" title="Programming">
+		<outline text="Who's hiring (js || react)?" title="Who's hiring (js || react)?" description="" type="rss" version="RSS" htmlUrl="https://news.ycombinator.com/item?id=23379196" xmlUrl="https://hnrss.org/whoishiring/jobs?q=React+OR+Javascript"/>
+		<outline text="Frontend Focus" title="Frontend Focus" description="" type="rss" version="RSS" htmlUrl="https://frontendfoc.us/" xmlUrl="https://frontendfoc.us/rss/"/>
+		<outline text="Julia Evans" title="Julia Evans" description="" type="rss" version="RSS" htmlUrl="" xmlUrl="https://jvns.ca/atom.xml"/>
+		<outline text="Who's hiring (design || visa)?" title="Who's hiring (design || visa)?" description="" type="rss" version="RSS" htmlUrl="https://news.ycombinator.com/item?id=23379196" xmlUrl="https://hnrss.org/whoishiring/jobs?q=design+OR+visa"/>
+		<outline text="Who's hiring (london || berlin)?" title="Who's hiring (london || berlin)?" description="" type="rss" version="RSS" htmlUrl="https://news.ycombinator.com/item?id=23379196" xmlUrl="https://hnrss.org/whoishiring/jobs?q=london+OR+berlin"/>
+		<outline text="Baldur's Notes" title="Baldur's Notes" description="" type="rss" version="RSS" htmlUrl="https://notes.baldurbjarnason.com/" xmlUrl="https://notes.baldurbjarnason.com/feed.xml"/>
+		<outline text="JavaScript Weekly" title="JavaScript Weekly" description="" type="rss" version="RSS" htmlUrl="https://javascriptweekly.com/" xmlUrl="https://javascriptweekly.com/rss"/>
+	</outline>
+	<outline text="Mags" title="Mags">
+		<outline text="n+1" title="n+1" description="" type="rss" version="RSS" htmlUrl="https://nplusonemag.com/" xmlUrl="https://nplusonemag.com/feed/"/>
+		<outline text="The New Yorker" title="The New Yorker" description="" type="rss" version="RSS" htmlUrl="https://www.newyorker.com/magazine" xmlUrl="https://www.newyorker.com/feed/magazine/rss"/>
+		<outline text="Foreign Affairs Magazine" title="Foreign Affairs Magazine" description="" type="rss" version="RSS" htmlUrl="https://www.foreignaffairs.com/google-news-rss.xml" xmlUrl="https://www.foreignaffairs.com/google-news-rss.xml"/>
 	</outline>
 	</body>
 </opml>
