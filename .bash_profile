@@ -55,8 +55,8 @@ alias sc="open -na 'Google Chrome' --args '--app=https://soundcloud.com/tynandeb
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # Loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # Loads nvm bash_completion
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # Loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # Loads nvm bash_completion
 
 # Set BASH history to unlimited lines
 export HISTSIZE=
@@ -78,12 +78,12 @@ journal() {
   git stash
   git pull
   git stash pop
-  mkdir -p $JOURNAL_DIR/`date +%Y`
-  code $JOURNAL_DIR/`date +%Y`/`date +%Y-%m-%d`.md
+  mkdir -p $JOURNAL_DIR/$(date +%Y)
+  code $JOURNAL_DIR/$(date +%Y)/$(date +%Y-%m-%d).md
 }
 alias j=journal
 
-push() {
+jpush() {
   date=$(date)
   if [[ "$1" = "todo" ]]; then
     cd ~/Documents/todo
@@ -98,5 +98,12 @@ push() {
       git commit -m "Updated journal: $date"
       git push
     fi
+  fi
+}
+
+push() {
+  branch=$(git rev-parse --abbrev-ref HEAD)
+  if [[ $branch ]]; then
+    git push origin $branch
   fi
 }
