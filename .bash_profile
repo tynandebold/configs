@@ -53,11 +53,6 @@ alias rbash='source ~/.bash_profile'
 # Web
 alias sc="open -na 'Google Chrome' --args '--app=https://soundcloud.com/tynandebold/likes'"
 
-# NVM
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # Loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # Loads nvm bash_completion
-
 # Set BASH history to unlimited lines
 export HISTSIZE=
 export HISTFILESIZE=
@@ -67,6 +62,11 @@ export PATH=/usr/local/bin:$PATH
 
 # Python
 export PATH=$PATH:~/Library/Python/2.7/bin
+
+# NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
 
 # Show PWD in terminal windows
 export PROMPT_COMMAND='echo -ne "\033]0;$PWD\007"'
