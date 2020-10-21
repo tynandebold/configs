@@ -44,7 +44,7 @@ alias bat='bat --theme="Monokai Extended Light"'
 alias batd='bat --theme="Monokai Extended Bright"'
 
 # Weather and moon
-alias weather='curl http://wttr.in/Copenhagen?uFn'
+alias wthr='curl http://wttr.in/Copenhagen?uFn'
 alias moon='curl http://wttr.in/Moon?F'
 
 # Reload bash profile
@@ -107,3 +107,8 @@ push() {
     git push origin $branch
   fi
 }
+
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
+# Z
+. ~/bin/z.sh

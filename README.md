@@ -26,6 +26,9 @@ prefs for how i like stuff
     - [postman](https://www.getpostman.com/downloads/)
     - [gitup](https://gitup.co/)
     - [postico](https://eggerapps.at/postico/)
+    - [z](https://github.com/rupa/z)
+    - [starship](https://starship.rs/)
+    - [powerline fonts](https://github.com/powerline/fonts)
   - **other**
     - [master password](https://masterpassword.app/)
     - [spectacle](https://www.spectacleapp.com/)
@@ -36,7 +39,6 @@ prefs for how i like stuff
     - [mail mate](https://freron.com/)
     - [spotify](https://www.spotify.com/us/download/other/)
     - [zeplin](https://zeplin.io/)
-    - [ukelele](https://software.sil.org/ukelele/)
     - [net news wire](https://ranchero.com/netnewswire/)
       - alternatively [reeder](https://reederapp.com/)
     - [karabiner elements](https://karabiner-elements.pqrs.org/)
