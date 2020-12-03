@@ -45,6 +45,5 @@ prefs for how i like stuff
     - [karabiner elements](https://karabiner-elements.pqrs.org/)
       - map caps lock to escape || if using a non-us keyboard layout
     - [gifski](https://gif.ski/)
-    - [gitup](https://gitup.co/)
     - [handbrake](https://handbrake.fr/)
     - [timer](https://github.com/michaelvillar/timer-app)
