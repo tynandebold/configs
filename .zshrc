@@ -1,5 +1,6 @@
 #!/bin/zsh
 
+# Update the title in terminal with the PWD
 precmd() {
   echo -ne "\e]1;$PWD\a"
 }
@@ -76,6 +77,7 @@ push() {
   fi
 }
 
+# NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
@@ -83,4 +85,5 @@ export NVM_DIR="$HOME/.nvm"
 # Z
 . ~/Bin/z.sh
 
+# Starship
 eval "$(starship init zsh)"
