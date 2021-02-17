@@ -25,6 +25,9 @@ alias uncommit='git reset --soft HEAD^'
 alias ls='ls -GFh'
 alias lsa='ls -la'
 
+# history
+alias history="history 1"
+
 # Bat
 alias bat='bat --theme="Monokai Extended Light"'
 alias batd='bat --theme="Monokai Extended Bright"'
@@ -87,3 +90,11 @@ export NVM_DIR="$HOME/.nvm"
 
 # Starship
 eval "$(starship init zsh)"
+
+# Set custom history size
+export HISTFILESIZE=1000000
+export HISTSIZE=1000000
+export HISTFILE=~/.zsh_history
+
+setopt HIST_IGNORE_ALL_DUPS
+setopt HIST_FIND_NO_DUPS
