@@ -16,6 +16,13 @@ prefs for how i like stuff
   ~/Library/ApplicationSupport/iTerm2/DynamicProfiles
   ```
 
+- location of z.sh and it's data file:
+
+  ```sh
+  ~/Bin/z.sh
+  ~/.z
+  ```
+
 - install links
   - **dev**
     - [homebrew](https://brew.sh/)
@@ -30,6 +37,8 @@ prefs for how i like stuff
     - [starship](https://starship.rs/)
     - [powerline fonts](https://github.com/powerline/fonts)
     - [ngrok](https://ngrok.com/)
+    - [delta](https://github.com/dandavison/delta)
+    - [bat](https://github.com/sharkdp/bat)
   - **other**
     - [master password](https://masterpassword.app/)
     - [spectacle](https://www.spectacleapp.com/)

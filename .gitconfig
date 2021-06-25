@@ -1,0 +1,15 @@
+# This is Git's per-user configuration file.
+[user]
+	email = me@me.com # use gmail
+	name = tynandebold
+
+[core]
+  pager = delta
+
+[delta]
+  plus-color = "#012800"
+  minus-color = "#340001"
+  syntax-theme = Monokai Extended Light # Monokai Extended Bright
+
+[interactive]
+  diffFilter = delta --color-only

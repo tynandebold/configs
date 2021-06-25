@@ -88,9 +88,6 @@ export NVM_DIR="$HOME/.nvm"
 # Z
 . ~/Bin/z.sh
 
-# Starship
-eval "$(starship init zsh)"
-
 # Set custom history size
 export HISTFILESIZE=1000000
 export HISTSIZE=1000000
@@ -98,3 +95,12 @@ export HISTFILE=~/.zsh_history
 
 setopt HIST_IGNORE_ALL_DUPS
 setopt HIST_FIND_NO_DUPS
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+
+# Add RVM
+# [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
+# Starship
+eval "$(starship init zsh)"
